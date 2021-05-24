@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eva2", "eva2.csproj", "{EA98039C-EEE9-40BA-B936-17955F0EF5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eva2Model", "..\eva2Model\eva2Model.csproj", "{705C2D2B-C5CB-4553-ACED-73D531A712BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketUtils", "..\SocketsUtils\SocketUtils.csproj", "{9786CB5B-A141-419E-AF97-BC9BD3A75430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eva2Cliente", "..\eva2Cliente\eva2Cliente.csproj", "{EDB30207-13A2-41DB-BFC5-514BF9584853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA98039C-EEE9-40BA-B936-17955F0EF5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA98039C-EEE9-40BA-B936-17955F0EF5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA98039C-EEE9-40BA-B936-17955F0EF5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA98039C-EEE9-40BA-B936-17955F0EF5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705C2D2B-C5CB-4553-ACED-73D531A712BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705C2D2B-C5CB-4553-ACED-73D531A712BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705C2D2B-C5CB-4553-ACED-73D531A712BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705C2D2B-C5CB-4553-ACED-73D531A712BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9786CB5B-A141-419E-AF97-BC9BD3A75430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9786CB5B-A141-419E-AF97-BC9BD3A75430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9786CB5B-A141-419E-AF97-BC9BD3A75430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9786CB5B-A141-419E-AF97-BC9BD3A75430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB30207-13A2-41DB-BFC5-514BF9584853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB30207-13A2-41DB-BFC5-514BF9584853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB30207-13A2-41DB-BFC5-514BF9584853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB30207-13A2-41DB-BFC5-514BF9584853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBC23AA8-EB52-40FF-88E3-C47A99B24D00}
+	EndGlobalSection
+EndGlobal
